@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Obfuscator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Obfuscator</h1>
+        <div class="input-output">
+            <textarea id="inputCSS" placeholder="Paste your CSS here..."></textarea>
+            <button onclick="obfuscate()">Obfuscate CSS</button>
+            <textarea id="outputCSS" placeholder="Obfuscated CSS will appear here..." readonly></textarea>
+        </div>
+        <button onclick="download()">Download Obfuscated CSS</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
